@@ -169,18 +169,19 @@ if menuchoice == 1:
             print(f"Current balance: ${balance}")
 
 if menuchoice == 3:
-    print("BLACKJACK ")
-    print("You will make a bet and the game will start shortly after")
-    print("You get cards and your score is the sum of the cards' value")
-    print("The winner is whoever has more score by the time both players stop")
-    print("The loser is either who had the least score or who had their score exceed 21")
-    print("If you want to stop playing, make your bet 0")
+    print("Stars = Probability of paying out / profitting")
+    print("BLACKJACK - ☆☆")
+    print("You will make a bet and the game will start shortly after.")
+    print("You get cards and your score is the sum of the cards' value.")
+    print("The winner is whoever has more score by the time both players stop.")
+    print("The loser is either who had the least score or who had their score exceed 21.")
+    print("If you want to stop playing, make your bet 0.")
     print("")
-    print("SLOTS")
-    print("You will make a bet and the machine will roll")
-    print("You win if the same symbol is rolled 3 in a row and lose otherwise")
-    print("Your payout is decided by your winning symbol")
-    print("Different symbols give different multipliers on win")
+    print("SLOTS - ☆")
+    print("You will make a bet and the machine will roll.")
+    print("You win if the same symbol is rolled 3 in a row and lose otherwise.")
+    print("Your payout is decided by your winning symbol.")
+    print("Different symbols give different multipliers on win.")
     
 
 if menuchoice == 2:
@@ -235,4 +236,5 @@ if menuchoice == 2:
 if __name__ == '__main__':
 
     main()
+
 
