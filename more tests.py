@@ -56,7 +56,7 @@ dc = [deck.pop(), deck.pop()]
 # also the game Craps will be added someday but uh the doc draft didn't mention it so yeah
 print("Casino Royale!")
 print("")
-print(f"Welcome {user}, What would you like to do?")
+print(f"WELCOME {user}!, What would you like to do this fine evening?")
 print("1) Play Blackjack")
 print("2) Play the Slot Machine")
 print("3) Read a guide")
@@ -230,4 +230,5 @@ if menuchoice == 2:
     print("*******************************************")
 
 if __name__ == '__main__':
+
     main()
