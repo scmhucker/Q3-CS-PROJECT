@@ -169,7 +169,7 @@ if menuchoice == 1:
             print(f"Current balance: ${balance}")
 
 if menuchoice == 3:
-    print("Stars = Probability of paying out / profitting")
+    print("Stars = Probability of paying out / profiting")
     print("BLACKJACK - ☆☆")
     print("You will make a bet and the game will start shortly after.")
     print("You get cards and your score is the sum of the cards' value.")
